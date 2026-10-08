@@ -1,0 +1,41 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing and scratch
+/coverage
+test_*.js
+*.log
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Sensitive environment and key files - NEVER COMMIT
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.enc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+*.pem
+Thumbs.db
